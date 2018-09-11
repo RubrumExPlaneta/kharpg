@@ -1,0 +1,25 @@
+-cp c:\Program Files (x86)\KodeStudio\resources\app\extensions\kha\Kha\Sources
+-cp c:\Program Files (x86)\KodeStudio\resources\app\extensions\kha\Kha\Backends\Flash
+-cp c:\Users\junmo_000\Documents\Kha Workspace\KhaRPG\Sources
+-D swf-script-timeout=60
+-D sys_flash
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_g4
+-D sys_a1
+-D sys_a2
+-D kha_flash
+-D kha_stage3d
+-D kha_g1
+-D kha_g2
+-D kha_g3
+-D kha_g4
+-D kha_a1
+-D kha_a2
+-D kha
+-D kha_version=1611
+-swf flash\kha.swf
+-swf-version 16.0
+-swf-header 640:480:60:ffffff
+-main Main

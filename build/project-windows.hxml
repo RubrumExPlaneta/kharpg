@@ -1,0 +1,27 @@
+-cp c:\Program Files (x86)\KodeStudio\resources\app\extensions\kha\Kha\Sources
+-cp c:\Program Files (x86)\KodeStudio\resources\app\extensions\kha\Kha\Backends\Kore
+-cp c:\Users\junmo_000\Documents\Kha Workspace\Test Project\Sources
+-D no-compilation
+-D sys_windows
+-D sys_kore
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_g4
+-D sys_a1
+-D sys_a2
+-D kha_cpp
+-D kha_windows
+-D kha_windows_cpp
+-D kha_direct3d11
+-D kha_kore
+-D kha_g1
+-D kha_g2
+-D kha_g3
+-D kha_g4
+-D kha_a1
+-D kha_a2
+-D kha
+-D kha_version=1611
+-cpp windows-build\Sources
+-main Main
